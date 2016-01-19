@@ -1,23 +1,30 @@
 .image-bg {
-	opacity: 1;
-	display: block;
 	min-width: 100%;
 	min-height: 100%;
 	width: 100%;
 	height: 100%;
+	opacity: 1;
+	display: block;
 	position: absolute;
 	top: 0;
 	overflow: hidden;
 }
-img {
-	min-width: 100%;
-	min-height: 100%;
-}
-.video-bg {
-	opacity: 1;
-	display: block;
+.image-bg .inner {
 	width: 100%;
 	height: 100%;
+}
+.bg {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	background-image: url(../../img/traffic2.jpg);
+	background-position: center;
+}
+.video-bg {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	display: block;
 	position: absolute;
 	top: 0;
 	overflow: hidden;
