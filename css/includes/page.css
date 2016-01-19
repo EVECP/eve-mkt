@@ -1,0 +1,33 @@
+.image-bg {
+	opacity: 1;
+	display: block;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+img {
+	min-width: 100%;
+	min-height: 100%;
+}
+.video-bg {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	transition: all .5s linear 0s;
+}
+.video-bg .inner {
+	width: 100%;
+	height: 100%;
+}
+video {
+	min-width: 100%;
+	min-height: 100%;
+}

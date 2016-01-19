@@ -1,43 +1,11 @@
 <!DOCTYPE>
 <html lang="zh-CN">
 	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta charset="utf-8">
-		<style>
-			body { margin: 0; }
-			.image-bg {
-				opacity: 1;
-				display: block;
-				min-width: 100%;
-				min-height: 100%;
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				overflow: hidden;
-			}
-			img {
-				min-width: 100%;
-				min-height: 100%;
-			}
-			.video-bg {
-				opacity: 1;
-				display: block;
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				overflow: hidden;
-				transition: all .5s linear 0s;
-			}
-			.video-bg .inner {
-				width: 100%;
-				height: 100%;
-			}
-			video {
-				min-width: 100%;
-				min-height: 100%;
-			}
-		</style>
+		<title>market data from EVEOnline serenity server</title>
+		<link rel="stylesheet" href="css/includes/global.css">
+		<link rel="stylesheet" href="css/includes/page.css">
 	</head>
 	<body>
 		<div class="image-bg">
