@@ -1,1 +1,13 @@
-body { margin: 0; }
+ @font-face {
+	font-family: evesansneue-regular;
+	src: url(../../font/evesansneue-regular-webfont.eot);
+	src: url(../../font/evesansneue-regular-webfont.eot?#iefix) format('embedded-opentype'),
+		 url(../../font/evesansneue-regular-webfont.woff) format('woff'),
+		 url(../../font/evesansneue-regular-webfont.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin: 0;
+	font-family: evesansneue-regular;
+}

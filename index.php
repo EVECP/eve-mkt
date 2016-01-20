@@ -6,6 +6,7 @@
 		<title>market data from EVEOnline serenity server</title>
 		<link rel="stylesheet" href="css/includes/global.css">
 		<link rel="stylesheet" href="css/includes/page.css">
+		<link rel="stylesheet" href="css/includes/marquee.css">
 		<link rel="stylesheet" href="css/index.css">
 	</head>
 	<body>
@@ -22,5 +23,12 @@
 				</video>
 			</div>
 		</div>
+		<div id="goods-price-marquee"></div>
+		<script src="js/tool/TranspMarquee/TranspMarquee.js"></script>
+		<script>
+			window.onload = function(){
+				initMarquee("goods-price-marquee", "today_goods_price.json");
+			}
+		</script>
 	</body>
 </html>
